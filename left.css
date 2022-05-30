@@ -2,12 +2,6 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 body,
 h1,
 h2,
@@ -23,6 +17,7 @@ ul {
   font-weight: normal;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
