@@ -1,115 +1,114 @@
 section.hidden {
-    display: none !important;
-  }
-  
-  body {
-    padding: 2em 5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-  }
+  display: none !important;
+}
 
-  header {
-      height: 40px;
-  }
-  
-  header ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  header,
-  section.list ul,
-  footer {
-    border: 2px solid black;
-    box-shadow: 2px 2px rgb(43, 42, 42);
-  }
-  
-  header,
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 2em;
-  }
-  
-  header ul a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  header ul li:nth-child(-n+2)::after {
-    content: '|';
-    padding: 0 2em;
-  }
-  
-  #today {
-    text-align: right;
-    padding: 1em 0;
-  }
-  
-  section.list {
-    padding: 1em 0;
-  }
-  
-  section.list h1 {
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 1em;
-  }
-  
-  section.list ul li {
-    padding: 0.5em 2em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  section.list ul li:nth-child(odd) {
-    background-color: rgb(180, 180, 180);
-  }
-  
-  section form,
-  section.contact {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2em;
-    width: 60%;
-    margin: 0 auto;
-  }
-  
-  section h2 {
-    align-self: center;
-    font-weight: 600;
-  }
-  
-  button {
-    box-shadow: 2px 2px black;
-    border: 2px solid black;
-    padding: 0.3em 0.6em;
-  }
-  
-  section form button {
-    align-self: flex-end;
-  }
-  
-  section form input {
-    
-    border: 2px solid black;
-  }
-  
-  section form input:focus {
-    border: 2px solid gray;
-    outline: none;
-  }
-  
-  section.contact ul {
-    list-style: disc;
-    padding-left: 1.5em;
-  }
-  
-  footer {
-    margin-top: 2em;
-    position: absolute;
-    bottom: 70px;
-    width: 85%;
-  }
+body {
+  padding: 2em 5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+
+header {
+    height: 40px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header,
+section.list ul,
+footer {
+  border: 2px solid black;
+  box-shadow: 2px 2px rgb(43, 42, 42);
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+header ul a {
+  text-decoration: none;
+  color: black;
+}
+
+header ul li:nth-child(-n+2)::after {
+  content: '|';
+  padding: 0 2em;
+}
+
+#today {
+  text-align: right;
+  padding: 1em 0;
+}
+
+section.list {
+  padding: 1em 0;
+}
+
+section.list h1 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+section.list ul li {
+  padding: 0.5em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.list ul li:nth-child(odd) {
+  background-color: rgb(180, 180, 180);
+}
+
+section form,
+section.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  width: 60%;
+  margin: 0 auto;
+}
+
+section h2 {
+  align-self: center;
+  font-weight: 600;
+}
+
+button {
+  box-shadow: 2px 2px black;
+  border: 2px solid black;
+  padding: 0.3em 0.6em;
+}
+
+section form button {
+  align-self: flex-end;
+}
+
+section form input {
+  border: 2px solid black;
+}
+
+section form input:focus {
+  border: 2px solid gray;
+  outline: none;
+}
+
+section.contact ul {
+  list-style: disc;
+  padding-left: 1.5em;
+}
+
+footer {
+  margin-top: 2em;
+  position: absolute;
+  bottom: 70px;
+  width: 85%;
+}
