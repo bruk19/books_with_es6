@@ -13,5 +13,5 @@ export default class Router {
         section.classList.add('hidden');
       }
     });
-   }
   }
+}
