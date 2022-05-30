@@ -1,7 +1,6 @@
 {
-  "name": "Awesome books",
   "version": "1.0.0",
-  "description": "This is the \"Awesome books\" project in microverse path, week 01, module 02.",
+  "description": "This is the \"Books_with_es6\" project in microverse path, week 01, module 02.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
