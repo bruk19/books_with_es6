@@ -7037,3 +7037,4 @@ function friendlyDateTime(dateTimeish) {
 const VERSION = "2.4.0";
 
 export { DateTime, Duration, FixedOffsetZone, IANAZone, Info, Interval, InvalidZone, Settings, SystemZone, VERSION, Zone };
+//# sourceMappingURL=luxon.js.map

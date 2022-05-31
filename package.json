@@ -1,22 +1,16 @@
 {
+  "name": "books_with_es6",
   "version": "1.0.0",
-  "description": "This is the \"Books_with_es6\" project in microverse path, week 01, module 02.",
-  "main": "index.html",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx hint . && npx stylelint \"**/*.{css,scss}\" && npx eslint .",
     "deploy:gh-pages": "git subtree push --prefix src origin gh-pages"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/teckim/awesome-books.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/teckim/awesome-books/issues"
-  },
-  "homepage": "https://github.com/teckim/awesome-books#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
@@ -27,5 +21,9 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "luxon": "^2.4.0"
   }
 }

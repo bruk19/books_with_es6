@@ -1,4 +1,4 @@
-export default class book {
+export default class Book {
   id = new Date().getTime();
 
   constructor(title, author, id = null) {
