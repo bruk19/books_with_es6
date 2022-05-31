@@ -1,8 +1,12 @@
 export default class book {
-  constructor(title, author, id) {
+  id = new Date().getTime();
+
+  constructor(title, author, id = null) {
     this.title = title;
     this.author = author;
-    this.id = id;
+    if (id !== null) {
+      this.id = id;
+    }
   }
 
   createNode = () => {
